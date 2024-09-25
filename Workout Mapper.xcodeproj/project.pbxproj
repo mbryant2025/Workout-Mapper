@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E1E34BE82CA260E100F0210C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1E34BCF2CA260DE00F0210C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E34BD62CA260DE00F0210C;
+			remoteInfo = "Workout Mapper";
+		};
+		E1E34BF22CA260E100F0210C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1E34BCF2CA260DE00F0210C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E34BD62CA260DE00F0210C;
+			remoteInfo = "Workout Mapper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1E34BD72CA260DE00F0210C /* Workout Mapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workout Mapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E34BE72CA260E100F0210C /* Workout MapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workout MapperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E34BF12CA260E100F0210C /* Workout MapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workout MapperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E1E34BD92CA260DE00F0210C /* Workout Mapper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Workout Mapper";
+			sourceTree = "<group>";
+		};
+		E1E34BEA2CA260E100F0210C /* Workout MapperTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Workout MapperTests";
+			sourceTree = "<group>";
+		};
+		E1E34BF42CA260E100F0210C /* Workout MapperUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Workout MapperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1E34BD42CA260DE00F0210C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E34BE42CA260E100F0210C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E34BEE2CA260E100F0210C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1E34BCE2CA260DE00F0210C = {
+			isa = PBXGroup;
+			children = (
+				E1E34BD92CA260DE00F0210C /* Workout Mapper */,
+				E1E34BEA2CA260E100F0210C /* Workout MapperTests */,
+				E1E34BF42CA260E100F0210C /* Workout MapperUITests */,
+				E1E34BD82CA260DE00F0210C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1E34BD82CA260DE00F0210C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1E34BD72CA260DE00F0210C /* Workout Mapper.app */,
+				E1E34BE72CA260E100F0210C /* Workout MapperTests.xctest */,
+				E1E34BF12CA260E100F0210C /* Workout MapperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1E34BD62CA260DE00F0210C /* Workout Mapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E34BFB2CA260E100F0210C /* Build configuration list for PBXNativeTarget "Workout Mapper" */;
+			buildPhases = (
+				E1E34BD32CA260DE00F0210C /* Sources */,
+				E1E34BD42CA260DE00F0210C /* Frameworks */,
+				E1E34BD52CA260DE00F0210C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E1E34BD92CA260DE00F0210C /* Workout Mapper */,
+			);
+			name = "Workout Mapper";
+			packageProductDependencies = (
+			);
+			productName = "Workout Mapper";
+			productReference = E1E34BD72CA260DE00F0210C /* Workout Mapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1E34BE62CA260E100F0210C /* Workout MapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E34BFE2CA260E100F0210C /* Build configuration list for PBXNativeTarget "Workout MapperTests" */;
+			buildPhases = (
+				E1E34BE32CA260E100F0210C /* Sources */,
+				E1E34BE42CA260E100F0210C /* Frameworks */,
+				E1E34BE52CA260E100F0210C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1E34BE92CA260E100F0210C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E1E34BEA2CA260E100F0210C /* Workout MapperTests */,
+			);
+			name = "Workout MapperTests";
+			packageProductDependencies = (
+			);
+			productName = "Workout MapperTests";
+			productReference = E1E34BE72CA260E100F0210C /* Workout MapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1E34BF02CA260E100F0210C /* Workout MapperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E34C012CA260E100F0210C /* Build configuration list for PBXNativeTarget "Workout MapperUITests" */;
+			buildPhases = (
+				E1E34BED2CA260E100F0210C /* Sources */,
+				E1E34BEE2CA260E100F0210C /* Frameworks */,
+				E1E34BEF2CA260E100F0210C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1E34BF32CA260E100F0210C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E1E34BF42CA260E100F0210C /* Workout MapperUITests */,
+			);
+			name = "Workout MapperUITests";
+			packageProductDependencies = (
+			);
+			productName = "Workout MapperUITests";
+			productReference = E1E34BF12CA260E100F0210C /* Workout MapperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1E34BCF2CA260DE00F0210C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E1E34BD62CA260DE00F0210C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E1E34BE62CA260E100F0210C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E1E34BD62CA260DE00F0210C;
+					};
+					E1E34BF02CA260E100F0210C = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E1E34BD62CA260DE00F0210C;
+					};
+				};
+			};
+			buildConfigurationList = E1E34BD22CA260DE00F0210C /* Build configuration list for PBXProject "Workout Mapper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1E34BCE2CA260DE00F0210C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E1E34BD82CA260DE00F0210C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1E34BD62CA260DE00F0210C /* Workout Mapper */,
+				E1E34BE62CA260E100F0210C /* Workout MapperTests */,
+				E1E34BF02CA260E100F0210C /* Workout MapperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1E34BD52CA260DE00F0210C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E34BE52CA260E100F0210C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E34BEF2CA260E100F0210C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1E34BD32CA260DE00F0210C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E34BE32CA260E100F0210C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E34BED2CA260E100F0210C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1E34BE92CA260E100F0210C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1E34BD62CA260DE00F0210C /* Workout Mapper */;
+			targetProxy = E1E34BE82CA260E100F0210C /* PBXContainerItemProxy */;
+		};
+		E1E34BF32CA260E100F0210C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1E34BD62CA260DE00F0210C /* Workout Mapper */;
+			targetProxy = E1E34BF22CA260E100F0210C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1E34BF92CA260E100F0210C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1E34BFA2CA260E100F0210C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1E34BFC2CA260E100F0210C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Workout Mapper/Workout Mapper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Workout Mapper/Preview Content\"";
+				DEVELOPMENT_TEAM = WS7BEPVLXW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app uses health reacords to access workout data for plotting.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses health reacords to access workout data for plotting.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelcbryant.Workout-Mapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1E34BFD2CA260E100F0210C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Workout Mapper/Workout Mapper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Workout Mapper/Preview Content\"";
+				DEVELOPMENT_TEAM = WS7BEPVLXW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This app uses health reacords to access workout data for plotting.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses health reacords to access workout data for plotting.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelcbryant.Workout-Mapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1E34BFF2CA260E100F0210C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WS7BEPVLXW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelcbryant.Workout-MapperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workout Mapper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Workout Mapper";
+			};
+			name = Debug;
+		};
+		E1E34C002CA260E100F0210C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WS7BEPVLXW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelcbryant.Workout-MapperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workout Mapper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Workout Mapper";
+			};
+			name = Release;
+		};
+		E1E34C022CA260E100F0210C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WS7BEPVLXW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelcbryant.Workout-MapperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Workout Mapper";
+			};
+			name = Debug;
+		};
+		E1E34C032CA260E100F0210C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WS7BEPVLXW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelcbryant.Workout-MapperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Workout Mapper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1E34BD22CA260DE00F0210C /* Build configuration list for PBXProject "Workout Mapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E34BF92CA260E100F0210C /* Debug */,
+				E1E34BFA2CA260E100F0210C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E34BFB2CA260E100F0210C /* Build configuration list for PBXNativeTarget "Workout Mapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E34BFC2CA260E100F0210C /* Debug */,
+				E1E34BFD2CA260E100F0210C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E34BFE2CA260E100F0210C /* Build configuration list for PBXNativeTarget "Workout MapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E34BFF2CA260E100F0210C /* Debug */,
+				E1E34C002CA260E100F0210C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E34C012CA260E100F0210C /* Build configuration list for PBXNativeTarget "Workout MapperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E34C022CA260E100F0210C /* Debug */,
+				E1E34C032CA260E100F0210C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1E34BCF2CA260DE00F0210C /* Project object */;
+}
